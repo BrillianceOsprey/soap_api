@@ -1,0 +1,63 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+part 'latest_posts.freezed.dart';
+
+
+@freezed
+class LatestPosts with _$LatestPosts{
+  const factory LatestPosts({
+  String? jobId,
+  String? jobNo,
+  String? employerId,
+  String? title,
+  String? positionId,
+  String? jobCategoryId,
+  String? jobCategoryName,
+  String? industryId,
+  String? workingStateId,
+  String? workingTownshipId,
+  String? status,
+  String? expiredOn,
+  String? employmentType,
+  String? salaryRange,
+  String? salaryType,
+  bool? active,
+  String? createdBy,
+  String? createdOn,
+  String? modifiedBy,
+  String? modifiedOn,
+  String? lastAction,
+  String? jobScope,
+  String? educationRequirement,
+  String? experiencedLevel,
+  String? additionalQuestionsAnswer,
+  String? coverLetter,
+  String? employerNo,
+  String? companyName,
+  String? website,
+  String? email,
+  String? facebook,
+  String? phoneNumber,
+  String? address,
+  String? positionName,
+  String? industryName,
+  String? stateName,
+  String? townshipName,
+  String? createdByCode,
+  String? modifiedByCode,
+  String? uploadCompanyLogo,
+  String? uploadCompanyCoverphoto,
+  String? accountId,
+  String? viewCount,
+  String? applicantCounts,
+  String? workaddress,
+  String? gender,
+  String? benefits,
+  String? careerOpportunities,
+  String? highlights,
+  String? recruiterActive,
+  String? postTime,
+  String? employmentTypeHighLightColor,
+  }) = _LatestPosts;
+  
+
+}
